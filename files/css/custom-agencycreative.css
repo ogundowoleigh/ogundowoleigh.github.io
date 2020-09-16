@@ -1,0 +1,16 @@
+
+
+/* Change Page Loader Color */
+#page-loader  { background: #004450 !important; }
+
+
+/* Change Header Color */
+header, #menu-inner, #header-actions-overlay { background: #004450 !important; }
+
+
+/* Change Footer Border */
+footer { border: none !important; background: #004450 !important; }
+
+
+/* Change portfolio thumb hover color */
+.thumb-hover.overlay-color::before { background: rgba(0,68,80,0.8) !important; }
