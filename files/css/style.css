@@ -1249,7 +1249,7 @@ header #logo img#dark-logo + img#light-logo {
 	margin-left: 80px;
 	}
 	header.header-right ~ #footer { margin-left: 0px;}
-	#footer.text-light { background: #000000; border-color: rgba(255,255,255,0.21); }
+	#footer.text-light { background: #00292d; border-color: rgba(255,255,255,0.21); }
 	
 #footer .footer-inner {
 	padding: 60px 0;
@@ -1554,14 +1554,14 @@ nav#main-nav ul.sub-menu > li > a {
 ------------------------------------------------*/
 
 /* dark header */
-header.text-light { background: #000000; border-color: rgba(255,255,255,0.21);}
+header.text-light { background: #00292d; border-color: rgba(255,255,255,0.21);}
 header.text-light::after { background: rgba(255,255,255,0.21);}
 header.text-light nav#main-nav ul > li > a { color: #ffffff; }
 header.text-light nav#main-nav:not(.underline) ul > li > a:hover, header.text-light nav#main-nav:not(.underline) ul > li.current_page_item > a { color: rgba(255,255,255,0.75); }
 header.text-light nav#main-nav ul > li > a::after { background: #ffffff; }
 header.text-light .menu-toggle span.hamburger, header.text-light .menu-toggle span.hamburger:after, header.text-light .menu-toggle span.hamburger:before { background: #ffffff; }
-header.text-light #menu-inner { background: #000000; }
-header.text-light #header-actions-overlay { background: #000000; }
+header.text-light #menu-inner { background: #00292d; }
+header.text-light #header-actions-overlay { background: #00292d; }
 
 /* switch logo appearance */
 .loading-end header:not(.hero-invisible) #logo.text-light:not(.hide-on-hero) img#dark-logo { opacity: 0; visibility: hidden; }
@@ -2073,7 +2073,7 @@ header.action-is-active ~ #hero-and-body #hero[class*='side-left'].is_stuck:not(
 	        transition: opacity 0.6s ease;
 	transition-delay: 0.9s;
 	}
-	#page-loader.text-light { background: #000000; }
+	#page-loader.text-light { background: #00292d; }
 	.loaded #page-loader { opacity: 0; transition-delay: 0.9s; }
 	.loading-end #page-loader { display: none; }
 
